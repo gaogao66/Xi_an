@@ -8,10 +8,11 @@
     <link rel="stylesheet" type="text/css" href="../css/index_css.css">
     <link rel="stylesheet" type="text/css" href="../css/menu_css.css">
     <script type="text/javascript" src="../js/menu_js.js"></script>
-	
+    <link rel="stylesheet" type="text/css" href="../css/music.css" />
     <!--导入ｊｑｕｅｒｙ-->
     <script src="../source/jquery-3.3.1.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="../js/leaves.js"></script>
+    <script type="text/javascript" src="../js/music.js"></script>
 </head>
 <body>
 	<!--导航栏-->
@@ -24,6 +25,13 @@
         <div class="navigate-text">魅力长安</div>
         <div class="navigate-content">
             <i class="iconfont tb icon-category" onclick="showMenu()"></i>
+        </div>
+        <div class="music-link">
+            <a id="mc_play" class="on" onclick="play_music()">
+                <audio id="musicfx" loop="loop"  autoplay="autoplay">
+                    <source src="../source/相声瓦舍 - 幻音宝盒 [mqms2].m4a" type="audio/mpeg">
+                </audio>
+            </a>
         </div>
     </div>
     

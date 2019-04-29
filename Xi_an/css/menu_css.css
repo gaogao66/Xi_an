@@ -157,3 +157,7 @@
         width: 100%;
         background-color: white;
     }
+    iframe{
+        position:absolute;
+        right:5px;
+    }
